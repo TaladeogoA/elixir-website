@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <Nav>
       <div class="logo-container">
-        <span>ELIXIR</span>
+        <Link to="/">ELIXIR</Link>
       </div>
 
       <ul class="navlinks-container">
@@ -42,10 +42,12 @@ const Nav = styled.nav`
   .logo-container {
     width: 25%;
 
-    span {
+    a {
       font-size: 1.5rem;
       padding: 0 3rem;
       padding-top: 1.5rem;
+      text-decoration: none;
+      color: rgb(27, 38, 44);
     }
   }
 
