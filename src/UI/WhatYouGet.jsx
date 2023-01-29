@@ -70,6 +70,8 @@ export default WhatYouGet;
 
 const Wrapper = styled.section`
   display: flex;
+  justify-content: center;
+  margin: 0 auto;
   margin-top: 10rem;
 
   .what-you-get-images {

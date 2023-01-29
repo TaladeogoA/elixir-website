@@ -35,6 +35,7 @@ const FactorWrapper = styled.article`
     align-items: center;
     cursor: pointer;
     transition: all 3s ease-in-out;
+    margin: 1rem 0;
 
     svg {
       font-size: 1.5rem;
@@ -48,13 +49,13 @@ const FactorWrapper = styled.article`
       justify-content: space-between;
 
       h3 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
       }
 
       &.opened {
-       p {
-        margin-right: 5rem;
-       }
+        p {
+          margin-right: 5rem;
+        }
       }
     }
   }
@@ -64,11 +65,6 @@ const FactorWrapper = styled.article`
     font-size: 0.8rem;
     padding: 2rem;
     background-color: #fcf0e3;
-    border: solid 1px #f2e;
     width: calc(95%-4rem);
-
-     &.opened {
-        mar
-     }
   }
 `;

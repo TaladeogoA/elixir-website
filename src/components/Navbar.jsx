@@ -34,10 +34,16 @@ const Navbar = () => {
 export default Navbar;
 
 const Nav = styled.nav`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 3.5rem;
+  background-color: #fef1eb;
+  z-index: 10;
 
   .logo-container {
     width: 25%;

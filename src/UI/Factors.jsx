@@ -35,7 +35,7 @@ const Wrapper = styled.section`
   justify-content: space-between;
 
   .factors-image {
-    width: 55%;
+    width: 50%;
 
     img {
       padding: 3rem;
@@ -44,9 +44,10 @@ const Wrapper = styled.section`
 
   .factors-text {
     width: 45%;
+    margin-right: 5rem;
 
     h2 {
-      font-size: 2.5rem;
+      font-size: 2.8rem;
     }
   }
 `;
